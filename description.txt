@@ -10,4 +10,10 @@
 - Over-fetching 또한 GraphQL로 해결할수있다. 
 - GraphQL을 한 쿼리에 정확하게 원하는 정보만 받을수있다.
 - GraphQL에서는 URL이 존재하지 않는다. 요청한 정보들만 받을수 있고 원하는 방식으로 조정할수있다.
-- 
+- yarn global add nodemon
+- yarn add babel-node --dev
+- npm install -g babel-cli
+- babel-node는 기본적으로 더 좋게 코드를 작성하게 만들어준다.
+- yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
+- graphql-yoga로 서버를 시작하는일은 너무나도 쉽다. 
+- schema는 사용자에게 보내거나 사용자로부터 받을 data 대한 설명이다.
