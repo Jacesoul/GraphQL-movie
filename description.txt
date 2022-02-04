@@ -26,3 +26,5 @@
 - schima.graphql에서 data가 어떻게 보일지 정의하고 이것을 resolve(해결)하는 함수를 만드는것이다.
 - Mutation은 Database 상태가 변할때 사용되는것이다.
 - GraphQL에게 Mutation이나 Query를 요청하길 원한다면 그것들을 type Query와 type Mutation에 넣어야한다.
+- yarn add node-fetch
+- Node.js에서 fetch를 할때 필요하다.
