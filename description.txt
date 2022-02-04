@@ -2,3 +2,12 @@
 
 - graphql-yoga는 GraphQL 프로젝트를 빠르게 시작할수 있다.
 - yarn add graphql-yoga
+- Over-fetching / Under-fetching
+- DB에 내가 사용하지 않을 영역을 요청하는 방식은 효율적이지 못하다.
+- Over-fetching은 요청한 영역의 정보보다 많은 정보를 서버에서 받는것을 말한다. 비효율적이고 개발자들이 뭘 받았는지 모르게된다.
+- Over-fetching은 GraphQL로 해결할수있다.
+- Under-fetching은 어떤 하나를 완성하기 위해 다른 요청들을 해야할때 발생하는데 예를들어 앱을 처음 시작할때 세가지 요청을 해야한다면 3가지 요청이 3번 오고가야 앱이 시작이된다. (REST에서 하나를 완성하려고 많은 소스를 요청한다)
+- Over-fetching 또한 GraphQL로 해결할수있다. 
+- GraphQL을 한 쿼리에 정확하게 원하는 정보만 받을수있다.
+- GraphQL에서는 URL이 존재하지 않는다. 요청한 정보들만 받을수 있고 원하는 방식으로 조정할수있다.
+- 
