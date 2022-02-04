@@ -20,3 +20,4 @@
 - Quer는 정보를 받을때 쓰이고 GraphQL은 이런 specification(자세한 설명)과 서버에 이러한 유형들을 정의해 놓고있다.
 - Mutation(변형)은 서버 혹은 DB, 메모리에서 정보를 바꾸는 작업을 할때 이런것들을 일컫는다.
 - resolver는 Query를 resolve(해결)하는것이다. Query는 DB에게는 문제같은것이다. 그래서 이 Query를 방식으로 resolve(해결)해야한다.
+- graphql playground는 graphql-yoga에 따라오는건데 DB를 테스트해주는것이다.(Postman과 비슷한 기능)
