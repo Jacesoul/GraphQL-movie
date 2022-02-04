@@ -20,4 +20,7 @@
 - Quer는 정보를 받을때 쓰이고 GraphQL은 이런 specification(자세한 설명)과 서버에 이러한 유형들을 정의해 놓고있다.
 - Mutation(변형)은 서버 혹은 DB, 메모리에서 정보를 바꾸는 작업을 할때 이런것들을 일컫는다.
 - resolver는 Query를 resolve(해결)하는것이다. Query는 DB에게는 문제같은것이다. 그래서 이 Query를 방식으로 resolve(해결)해야한다.
+- Resolvers는 어떤것도 될수있다. 다른 API에 갈수도 있고 Database에 갈수도 있다. Django의 view라고 생각할수있다. schema는 URL같은거라고 생각할수 있다.
 - graphql playground는 graphql-yoga에 따라오는건데 DB를 테스트해주는것이다.(Postman과 비슷한 기능)
+- GraphQL Resolvers는 GraphQL 서버에서 요청을 받는다. GraphQL 서버가 Query나 Mutation의 정의를 발견하면 Resolvers를 찾고 해당 함수를 실행한다.
+- schima.graphql에서 data가 어떻게 보일지 정의하고 이것을 resolve(해결)하는 함수를 만드는것이다.
